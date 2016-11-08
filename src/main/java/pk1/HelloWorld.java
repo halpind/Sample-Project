@@ -14,6 +14,7 @@ private String name;
   }
 
   public String sayHello() {
+      System.out.println("Hello");
       return "Hello, " + name;
   }
 }
